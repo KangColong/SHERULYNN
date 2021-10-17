@@ -121,8 +121,8 @@ alasanafk = 'Nothing'
 NamaBot = settings.NamaBot
 NomorOwner = settings.NomorOwner
 NamaOwner = settings.NamaOwner
-ovo = settings.Ovo
-dana = settings.Dana
+Pulsa = settings.Pulsa
+Dana = settings.Dana
 gopay = settings.Gopay
 multi = true
 nopref = false
@@ -1073,7 +1073,7 @@ fill =`Hai Kak ${pushname}, ${tampilUcapan}
 Silahkan Pilih Untuk Menampilkan Menu
 
 Jika Button Tidak Muncul Ketik .allmenu`
-menu =`S H E R L Y N N 🦈`
+menu =`SKY BOTZ `
 gbutsan = [
 {buttonId:`allmenu`,buttonText:{displayText:'🦈SHOW MENU🦈'},type:1},
 {buttonId:`owner`,buttonText:{displayText:'🛐OWNER🛐'},type:1},
@@ -1105,7 +1105,7 @@ else if(menusimpel = true){
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
        menu = `┌───「 \`\`\`${NamaBot}\`\`\` 」
 │
-├ _Creator : *KurrXd* (CUMAN RECODE)
+├ _Creator : *SkyclopsZ* (CUMAN RECODE)
 ├ _Battery : ${baterai.battery}_
 ├ _Mode : ${publik ? 'Public' : 'Self'}_
 ├ _Total Hit : ${cmhit.length}_
@@ -1128,19 +1128,19 @@ else if(menusimpel = true){
 ├ _Info Nomor : ${num.data.country_code} - ${num.data.carrier.type} - ${num.data.carrier.name}_
 │
 └───「 \`\`\`${NamaBot}\`\`\` 」`
-sendButLocation(from, `${menu}`, "*_© S H E R L Y N N_*", {jpegThumbnail:ofrply,name:""}, [{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1},{buttonId:`owner`,buttonText:{displayText:'DEVELOPER'},type:1},{buttonId:`script`,buttonText:{displayText:'SOURCE CODE'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
+sendButLocation(from, `${menu}`, "*_© SKY BOTZ_*", {jpegThumbnail:ofrply,name:""}, [{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1},{buttonId:`owner`,buttonText:{displayText:'DEVELOPER'},type:1},{buttonId:`script`,buttonText:{displayText:'SOURCE CODE'},type:1}], {contextInfo: { mentionedJid: [dtod,otod,stod]}})
 }
 break
 case 'allmenu': 
   if (!isRegistered) return sendButRegis(from, daftar1, daftar2, daftar3, { quoted: ftrol})
 stod = `${sender}`
        stst = await denz.getStatus(`${sender.split('@')[0]}@c.us`)
-       nama = '🦈 S H E R L Y N N 🦈'
-       ownerJid = "6281220670449@s.whatsapp.net"
+       nama = '🦈 SKY BOTZ '
+       ownerJid = "6285705980176@s.whatsapp.net"
 				stst = stst.status == 401 ? '' : stst.status
 			num = await fetchJson(`https://api.telnyx.com/anonymous/v2/number_lookup/${senderNumber}`, {method: 'get'})
 menunya = `╭─❒ 「 Bot Info 」 ❒
-├ _Creator : *KurrXd* (CUMAN RECODE)
+├ _Creator : *SkyclopsZ* (CUMAN RECODE)
 ├ _Battery : ${baterai.battery}_
 ├ _Mode : ${publik ? 'Public' : 'Self'}_
 ├ _Total Hit : ${cmhit.length}_
